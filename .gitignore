@@ -1,0 +1,21 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+
+# === MATERIAŁY WYKŁADOWCY — NIE commitować (chronione, tylko lokalnie) ===
+# prezentacje, oryginalny test z odpowiedziami, komentarze, arkusze
+/*.docx
+/*.rtf
+/*.pptx
+/*.pdf
+# (oficjalne teksty ustaw są w public/akty/ — te są wersjonowane)
+
+# materiały pomocnicze (ekstrakcja tekstu / skrypty robocze)
+_extracted/
+_extract_*.py
+
+# logi
+npm-debug.log*
+/tmp/*
